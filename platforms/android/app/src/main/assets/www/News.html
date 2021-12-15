@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>jQuery Mobile: Theme Download</title> -->
+	<link rel="stylesheet" href="css/themes/UTBMcovid.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<title>UTBM Covid-19</title>
+	
+</head>
+<body>
+	<div data-role="page" id="MyNewsPage">
+		<div data-role="header" data-position="fixed" style="z-index:1; width: 100%; display:block;" data-tap-toggle="false" class="non-selectable">
+			<h1 onclick="backToTop();">UTBM Covid-19</h1>
+			<a class="ui-btn ui-icon-arrow-l ui-btn-icon-notext" id="nav" onclick="CloseWindow()"></a>
+		</div>
+		
+		<div data-role="container" style="height:100%;" id="listNews">
+		
+		</div>
+	</div>	
+	<script src="cordova.js"></script>
+	<script src="js/ListOfNews2.js"></script>
+	
+	<script type="text/javascript">
+	<!-- alert("must fire"); -->
+	NewsStarted();
+	</script>
+		
+</body >
+</html>

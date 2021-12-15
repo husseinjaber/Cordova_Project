@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-firebase-lib": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-firestore": {
+      "ANDROID_FIREBASE_FIRESTORE_VERSION": "21.3.1",
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "true",
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-googlemaps": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-call-number": {
+      "PACKAGE_NAME": "us.uni.project"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "us.uni.project"
+    }
+  },
+  "dependent_plugins": {}
+}

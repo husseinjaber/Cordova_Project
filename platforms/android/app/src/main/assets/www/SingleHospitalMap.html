@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>jQuery Mobile: Theme Download</title> -->
+	<link rel="stylesheet" href="css/themes/UTBMcovid.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<title>UTBM Covid-19</title>
+	<script type="text/javascript"
+          src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAsfnP_TT4T-jpIZsebDou5zPnvhcoJiD0"></script>
+</head>
+<body>
+	<div data-role="page" id="MyMapPage">
+		<div data-role="header" data-position="fixed" style="z-index:1; width: 100%; display:block;" data-tap-toggle="false" class="non-selectable">
+			<h1 onclick="backToTop();">UTBM Covid-19</h1>
+			<a class="ui-btn ui-icon-arrow-l ui-btn-icon-notext" id="nav" onclick="CloseWindow()"></a>
+		</div>
+		
+		<div data-role="container" style="height:100%;" id="SingleMap">
+			<div id="map" style="height:360px;"><!-- Show the Map here  -->  </div>  
+			<!-- <br> -->
+			<br>
+			<!-- <br> -->
+			<div style="text-align: center;">
+			  <button id="MyLocation" style=" webkit-border-radius: 10px; moz-border-radius: 10px; border-radius: 10px; width:95%;margin:auto;" onclick="FromMylocation();">
+				My Location
+			  </button>
+			</div>
+			<br>
+			<div style="text-align: center;">
+			  <button style=" webkit-border-radius: 10px; moz-border-radius: 10px; border-radius: 10px; width:95%;margin:auto;" onclick="OpenInGoogleMaps();">
+				Open in Google Maps
+			  </button>
+			</div>
+			<br>
+			<div style="text-align: center;">
+			  <button id="phoneNumberHere" style=" webkit-border-radius: 10px; moz-border-radius: 10px; border-radius: 10px; width:95%;margin:auto;" onclick="CallTheHospital();">
+				Call
+			  </button>
+			</div>
+		  <br>
+		  <br> 
+		</div>
+	</div>
+	<script src="cordova.js"></script>
+	<script src="js/ListOfHospitals.js"></script>
+	
+	
+	<!-- <script type="text/javascript" -->
+	  <!-- src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAH6eEhX9nywS8gKW3ATY7Cyg-Gqj9-ufY"></script> -->
+	
+	<script type="text/javascript">
+	ChangeMaps();
+	</script>
+</body>
+</html>
