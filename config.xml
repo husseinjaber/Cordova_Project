@@ -35,7 +35,7 @@
     <preference name="SplashScreen" value="www/img/splash/AndroidSplash.png" /> 
 	</platform>
 	
-	<preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyAH6eEhX9nywS8gKW3ATY7Cyg-Gqj9-ufY" />
+	<preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="" />
     <preference name="GOOGLE_MAPS_IOS_API_KEY" value="(api key)" />
 	<preference name="phonegap-version" value="cli-8.1.1" />
 	
